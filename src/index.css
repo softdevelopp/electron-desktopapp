@@ -1,0 +1,157 @@
+body {
+  font-family: "Druk Trial" !important;
+}
+@font-face {
+  font-family: "Druk Trial";   /*Can be any text*/
+  src: local("Druk Trial"),
+    url("./assets/fonts/DrukText-Bold-Trial.otf") format("truetype");
+}
+.header-contain, .step-btn-contain{
+  background-image: url('./assets/img/bg.png') !important;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.body-contain{
+  min-height: 700px !important;
+  background-image: radial-gradient(#002539, #021017);  
+}
+.body-contain1{
+  background-image: radial-gradient(#002539, #021017);  
+  border-top:2px solid white !important;
+  border-bottom:2px solid white !important;
+}
+.body-contain2{
+  background:#021018 !important;
+}
+
+.step-btn-contain{
+  padding:20px 0;
+  display: flex;
+  justify-content: flex-end  !important;
+  position: fixed;
+  bottom: 0;
+  top: unset;
+  z-index: 99999;
+}
+.step-btn{
+  background-color: #005E9C !important;
+  border: 4px solid #B6AE66 !important;
+  border-radius:40px !important;
+  padding: 10px 50px !important;
+  font-family: 'Druk Trial' !important;
+  font-size:32px !important;
+  line-height:38.4px !important; 
+}
+.col-contain-step1{
+  margin: auto !important;
+  padding: 100px 100px !important;
+}
+.col-contain-step2{
+  margin: auto !important;
+  padding: 50px 30px !important;
+}
+.col-contain-step3{
+  margin: auto !important;
+  padding: 100px 100px !important;
+}
+.form_label_text{
+  color:white !important;
+  font-size: 27px !important;
+  line-height: 32.4px !important;
+  padding: 10px 10px !important;
+}
+.form-control{
+  border-radius: 25px !important;
+  padding: 13px 15px !important;
+  font-size: 22px !important;
+}
+.form-check-input[type=radio] {
+  border-radius: 5px !important;
+  width: 38px !important;
+  height: 38px !important;
+}
+.form-check-label {
+  margin-bottom: 0 !important;
+  font-size: 44px !important;
+  color: white !important;
+  margin-right: 70px !important;
+}
+.radio_form_group{
+  display: flex;
+  justify-content: space-between;
+}
+.form-check{
+  display: flex !important;
+  flex-flow: row-reverse !important;
+  align-items: center !important;
+  padding-left: 10px !important;
+}
+.form-check-input:checked {
+  background-color: #ffa260 !important;
+  border-color: #f2f2f2 !important;
+}
+.form-check-input:checked[type=radio] {
+  --bs-form-check-bg-image: none !important;
+}
+.font-27{
+  color:white !important;
+  font-size: 27px !important;
+  line-height: 32.4px !important;
+}
+.font-34{
+  font-size: 34px !important;
+  color:white !important;
+}
+.font-119{
+  font-size:89px !important;
+  line-height: 86.4px !important;
+  color:white !important;
+  border-bottom: 2px solid white !important;
+  padding-bottom: 40px !important;
+}
+.font-97{
+  font-size:67px !important;
+  line-height: 66.4px !important;
+  color:white !important;
+  padding-top: 20px !important;
+}
+.result_download_box{
+  display: flex !important; 
+  justify-content: flex-end !important;
+}
+.col-result{
+  min-height: 52vw !important;
+}
+
+
+
+.row{
+  width: 100% !important;
+  margin: auto !important;
+}
+.d-flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.d-show{
+  display: block !important;
+}
+.d-hide{
+  display: none !important;
+}
+.alert-message{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 128px;
+    background: #d56b55;
+    color: white;
+    left: 35%;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+.under-18{
+  display: none;
+}

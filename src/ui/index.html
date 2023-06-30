@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>One Piece Movie Waiver</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.slim.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="../assets/js/signature_pad.min.js"></script>
+  </head>
+  <body>
+    <header class="header-contain">
+      <nav class="navbar navbar-expand navbar-light">
+        <div class="container">
+            <img src="../assets/img/logo.png" width="200px">
+        </div>
+      </nav>
+    </header>
+    <div class="alert-message"> </div>
+    <section id="step1" class="d-show section-step">
+      <div class="body-contain">
+        <div class="row">
+          <div class="col-contain col-contain-step1 col">
+            <div>
+              <form class="">
+                <div class="mb-4 form-group">
+                  <label class="form_label_text form-label">FIRST NAME</label><br/>
+                  <input type="text" class="form-control" id="first_name" required>
+                </div>
+                <div class="mb-4">
+                  <label class="form_label_text form-label" >LAST NAME</label><br/>
+                  <input type="text" class="form-control" id="last_name" required>
+                </div>
+                <div class="mb-4">
+                  <label class="form_label_text form-label" >DATE:</label><br/>
+                  <input type="text" class="form-control" id="birth" value="">
+                </div>
+                <div class="radio_form_group">
+                  <div class="form-check">
+                    <input name="age" type="radio" class="form-check-input" value="under 18">
+                    <label title="" class="form-check-label">UNDER 18</label>
+                  </div>
+                  <div class="form-check">
+                    <input name="age" type="radio" class="form-check-input" value="over 18">
+                    <label title="" class="form-check-label">OVER 18</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="step-btn-contain container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex-end">
+              <button type="button" class="step-btn step1-btn mr-5 btn btn-primary">PROCEED</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="step2" class="d-hide section-step">
+      <div class="body-contain container-fluid">
+        <div class="row">
+          <div class="col-contain col-contain-step2 col">
+            <div>
+              <div class="text-center text-white">
+                <h1>FILMING RELEASE</h1>
+              </div>
+              <div class="font-27">
+                In consideration of the publicity and exposure I may receive if included in the Project (as defined below) and for other good and valuable consideration, the sufficiency and receipt of which is acknowledged, I hereby grant to Netflix Media, LLC, its parents, affiliates, and their respective successors, assigns, licensees and anyone authorized by any of them (individually and collectively, the “Producers”), the irrevocable, non-exclusive, perpetual, and worldwide right to record, depict, and/or portray me and use, my actual or simulated likeness, name, photograph, voice, and actions, in any and all media, now known or later devised, and in any all advertising marketing or promotional communications in any and all languages, formats, versions, and forms related to or in connection with Producers’ entertainment products and/or programs (“Project”).
+              </div>
+              <div class="font-27 mt-5">
+                I hereby release Producers and their respective officers, directors, shareholders, employees, agents, and representatives (individually and collectively, “Producer Entities”) from any and all claims and liability of any kind whatsoever, arising out of or related to, my participation in the Project and the exercise of any of the rights granted to Producers above, including, without limitation, for any violation of any rights of privacy, publicity, defamation, or any other personal or property right.  Further, I waive any and all rights to my actual or simulated likeness, name, photograph, voice, actions, etc. in connection with the Project.  I further agree that I shall be entitled to no additional consideration as a result of the exercise of the rights granted herein.  In no event shall I have any right to seek or obtain injunctive or other equitable relief with respect to Producer Entities, the Project, and/or any other Producer production, and/or the production, distribution, exhibition, exploitation, advertising, promotion, and/or merchandising thereof.
+              </div>
+              <div class="font-27 mt-5">
+                This is the complete and binding agreement between me and Producers, superseding all prior understandings and communications with respect to this subject matter, and it cannot be terminated, rescinded, or amended hereafter, except by mutual written agreement.  I understand that Producers will proceed in reliance hereon; however, nothing contained herein shall be deemed to obligate Producers to exercise any of the rights herein granted to them.  This agreement shall be binding upon my heirs, successors, representatives and assigns forever.  This shall be exclusively governed by and construed in accordance with the laws of the State of California applicable to agreements entered into and wholly performed therein.
+              </div>
+              <div class="font-27 mt-5">
+                I warrant that I am of the age of majority (or, if not, that my parent or legal guardian has agreed to the foregoing and signed below) and that I have the full, complete, and unrestricted right and authority to enter into this Release and to grant the rights granted to Producers hereunder. 
+              </div> 
+              <div class="font-27 mt-5 under-18">
+                IF THE ABOVE SIGNATORY IS MINOR, THEN THE PARENT OF, OR LEGAL GUARDIAN FOR, SUCH PERSON MUST ALSO SIGN BELOW.
+              </div>
+              <div class="font-27 mt-5 under-18">
+                I hereby warrant that I am the parent and/or the legal guardian for the person who signed above, that I have read and understood the foregoing, that I have caused said person to sign above, and that, knowing of Producers’ reliance hereon, I agree to cause said person to adhere to all of the terms above.              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-contain1 container-fluid">
+        <div class="row">
+          <div class="col-contain col-contain-step2 col">
+            <div class="text-center font-34">
+              SIGN WAIVER USING YOUR FINGER BELOW
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="body-contain2 container-fluid pb-5">
+        <div class="row pb-5">
+          <div class="py-3 col  pb-5">
+            <div class="text-center pt-3">
+              <canvas id="signature" width="600" height="250" penColor="#ffffff" style="border: 1px solid #ddd;"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-btn-contain container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex-end">
+              <button type="button" class="step-btn step2-btn mr-5 btn btn-primary">PROCEED</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="step3" class="d-hide section-step">
+      <div class="body-contain container-fluid">
+        <div class="row">
+          <div class="col-contain col-contain-step3 col">
+            <div>
+              <div class="font-119 text-center">
+                SUCCESSFUL COMPLETION
+              </div>
+              <div class="font-97 text-center">
+                THE GUEST MAY NOW ENTER THE EXPERIENCE
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-btn-contain container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex-end">
+              <button type="button" class="step-btn step3-btn mr-5 btn btn-primary">RESET</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script src="./app.js"></script>
+  </body>
+</html>
